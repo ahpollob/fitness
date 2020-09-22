@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+/* Reset Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom css  strat*/
+.header-area {
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    padding-bottom: 1px;
+}
+
+
+
+.header-top {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+
+/* menu css */
+
+
+.menu-bar ul {
+    text-align: right;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+
+}
+
+.menu-bar ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: all .4s ease;
+}
+
+.menu-bar ul li a:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Header Text */
+.header-text {
+    margin-top: 50%;
+    position: relative;
+    left: 165px;
+    bottom: 110px;
+}
+
+.header-text h2 {
+    color: #fff;
+}
+
+.header-text h2 span {
+    color: #69802d !important;
+}
+
+.header-text p {
+    color: #fff;
+    margin-left: 125px;
+}
+
+.header-text p span {
+    color: #fd634e;
+}
+
+/* Service area css Start here */
+/* Service arera 1 css START */
+.service-area {
+    background-color: #a2ca28;
+    ;
+}
+
+.service-content1 {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.service-box-content {}
+
+.service-box-content {}
+
+.service-box-content img {
+    margin-bottom: 20px;
+}
+
+.service-box-content h4 {
+    margin-bottom: 20px;
+}
+
+.service-box-content p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.service-box-content .equal {
+    margin-bottom: 85px;
+}
+
+
+.service-box-content a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.service-box-content a span i {}
+
+/* Service arera 1 css END */
+
+/* Service arera 2 css STARTt */
+.service-content2 {}
+
+.fitness-first {
+    text-align: center;
+    background-color: #fff;
+    padding: 70px 45px 108px 45px;
+}
+
+.fitness-first h5 {
+    font-size: 31px;
+    font-weight: inherit;
+    color: #fd634e;
+    font-size: 16px;
+}
+
+.fitness-first h2 {
+    font-size: 31px;
+    margin-bottom: 10px;
+    color: #a9ce41;
+}
+
+.fitness-first img {
+    margin-bottom: 20px;
+}
+
+.fitness-first p {
+    color: #656e74;
+    font-size: 15px;
+}
+
+.fitness-first a {
+    color: #a9ce41;
+    text-decoration: underline !important;
+
+}
+
+.active-user {
+    background-image: url(img/user1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -30px;
+    bottom: 0;
+    padding: 192px 0;
+    width: 700px;
+    height: 100%;
+}
+
+.user-text {
+    color: #fd634e;
+    position: relative;
+    left: -36px;
+    bottom: -162px;
+}
+
+.user-text h4 {
+    text-align: right;
+    font-size: 16px;
+}
+
+.user-text h4 span {}
+
+.user-text h4 img {
+    margin-left: 10px;
+}
+
+.active-user2 {
+    background-image: url(img/user2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0px;
+    bottom: 1px;
+    padding: 192px 0;
+    width: 700px;
+    height: 100%;
+}
+
+
+.fitness-first2 {
+    text-align: center;
+    background-color: #fff;
+    padding: 70px 45px 108px 45px;
+    position: relative;
+    left: 35px;
+}
+
+.fitness-first2 h5 {
+    font-size: 31px;
+    font-weight: inherit;
+    color: #fd634e;
+    font-size: 16px;
+}
+
+.fitness-first2 h2 {
+    font-size: 31px;
+    margin-bottom: 10px;
+    color: #a9ce41;
+}
+
+.fitness-first2 img {
+    margin-bottom: 20px;
+}
+
+.fitness-first2 p {
+    color: #656e74;
+    font-size: 15px;
+}
+
+.fitness-first2 a {
+    color: #a9ce41;
+    text-decoration: underline !important;
+
+}
+
+.user-text2 {
+    color: #fd634e;
+    position: relative;
+    left: 50px;
+    bottom: -162px;
+}
+
+.user-text2 h4 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.user-text2 h4 span {}
+
+.user-text h4 img {
+    margin-left: 10px;
+}
+
+
+/* Service arera 2 css END */
+
+/* Summer arae css start here */
+
+.summer-area {
+    background-color: #f9614d;
+    margin-top: -2px;
+}
+
+.walk {
+    background-image: url(img/walk.jpg);
+}
+
+.beach {
+    background-image: url(img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    padding-top: 280px;
+    padding: 148px 0;
+    width: 746px;
+    height: auto;
+}
+
+.beach h4 {
+
+    position: relative;
+    top: -78px;
+    left: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.beach h3 {
+    position: relative;
+    bottom: 112px;
+    right: 32px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.beach h3 span {}
+
+
+.life-style {
+    background-color: #fff;
+    padding: 64px 30px 75px 49px;
+    margin-top: -3px;
+}
+
+.life-style h5 {
+    font-size: 31px;
+    font-weight: inherit;
+    color: #fd634e;
+    font-size: 16px;
+}
+
+.life-style h1 {
+    font-size: 31px;
+    margin-bottom: 10px;
+    color: #a9ce41;
+}
+
+.life-style h1 span {
+
+    position: absolute;
+    right: 24px;
+    top: 40px;
+
+}
+
+.life-style p {
+    color: #656e74;
+    font-size: 15px;
+}
+
+.life-style .man {}
+
+.life-style .man img {}
+
+.of-fun {
+    margin-top: -2px;
+}
+
+.summer-fun {
+    background-color: #a2ca28;
+    width: 776px;
+    padding: 103px 0;
+    padding-left: 68px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 126px;
+}
+
+.summer-fun h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.summer-fun p {
+    font-size: 12px;
+}
+
+.jam img {
+
+    width: 760px;
+    height: 346px;
+}
+
+.mango img {
+
+    width: 387px;
+    height: auto;
+}
+
+.habit {
+    background-color: #a2ca28;
+    padding: 20%;
+    width: 407px;
+    padding-bottom: 19%;
+}
+
+.habit h5 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.habit h1 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.habit p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.habit h1 span {
+    position: absolute;
+    right: 24px;
+    top: 40px;
+}
+
+/* Summer arae css send here */
+
+/*Footer area css start here  */
+.footer-area {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-top {
+    background-image: url(img/leader.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    padding-bottom: 200px;
+    padding-bottom: 310px;
+    /* color: #37414b; */
+    color: #fff;
+}
+
+.footer-top h2 {
+    margin-bottom: 20px;
+}
+
+.footer-top p {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-bottom {
+    padding-top: 161px;
+    padding-bottom: 200px;
+}
+
+.footer-text {}
+
+.footer-text {}
+
+.footer-text h4 {
+    font-size: 16px;
+}
+
+.footer-text p {
+    font-size: 12px;
+    line-height: 23px;
+    color: #8297a7;
+}
+
+.footer-social-icon {}
+
+.footer-social-icon h5 {
+    font-size: 16px;
+    margin-bottom: ;
+}
+
+.footer-social-icon ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.footer-social-icon ul li {
+    padding-right: -4px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.footer-social-icon ul li:nth-child(1) {
+    background-color: #2e3192;
+}
+
+
+.footer-social-icon ul li:nth-child(2) {
+    background-color: #00aeef;
+}
+
+.footer-social-icon ul li:nth-child(3) {
+    background-color: #ed3123;
+}
+
+.footer-social-icon ul li:nth-child(4) {
+    background-color: #171a8f;
+}
+
+
+.footer-social-icon ul li i {}
+
+.news-letter {
+    margin-top: 27px;
+}
+
+.news-letter input {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#input-resize {
+    width: 24%;
+}
+
+#input2 {}
+
+.news-letter a {
+    background: #a2ca28;
+    padding: 13px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
